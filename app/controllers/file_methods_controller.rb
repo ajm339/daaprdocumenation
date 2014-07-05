@@ -1,5 +1,5 @@
 class FileMethodsController < ApplicationController
-  before_action :set_file_method, only: [:show, :edit, :update, :destroy]
+  before_action :set_file_method, only: [:show, :edit, :update, :destroy, :vote]
 
   # GET /file_methods
   # GET /file_methods.json
