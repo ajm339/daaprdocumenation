@@ -1,4 +1,5 @@
 ActiveAdmin.register FileInstance do
+  permit_params :file_type, :name, :description, :id, :user_id
 
   
   # See permitted parameters documentation:
