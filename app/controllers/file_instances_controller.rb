@@ -1,5 +1,5 @@
 class FileInstancesController < ApplicationController
-  before_action :set_file_instance, only: [:show, :edit, :update, :destroy]
+  before_action :set_file_instance, only: [:show, :edit, :update, :destroy, :vote]
 
   # GET /file_instances
   # GET /file_instances.json
