@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :file_methods
+
   resources :file_instances do
   #->Prelang (voting/acts_as_votable)
   member do
