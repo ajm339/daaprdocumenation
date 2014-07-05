@@ -1,4 +1,5 @@
 ActiveAdmin.register FileMethod do
+  permit_params :id, :created_by, :name, :description, :input, :output
 
   
   # See permitted parameters documentation:
