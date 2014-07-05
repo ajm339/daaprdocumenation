@@ -1,4 +1,5 @@
 ActiveAdmin.register FileUpdate do
+  permit_params :id, :documentation_id, :user_id
 
   
   # See permitted parameters documentation:
